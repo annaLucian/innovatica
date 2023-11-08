@@ -1,12 +1,33 @@
 :root {
     --pink-principal: #E19898;
-    --purple-principal: #4D3C77;
-
-
+    --purple-btn: #4D3C77;
+    --purple-background: #3F1D38;
+    --pink-btn: #B07A8D;
+    --pink-bg-input: #F9EAEA;
+    --white: #ffff;
+    --text-title: 5.5rem;
+    --text-subtitle: 3rem;
+    --text-parrafo: 1.2rem;
+    --color-text: #1c1c1c;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+
+
+
+h1 {
+    font-size: var(--text-title);
+}
+
+h5 {
+    font-size: var(--text-subtitle);
+}
+
+p {
+    font-size: var(--text-parrafo);
 }
