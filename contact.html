@@ -12,8 +12,26 @@
     <header class="header-container">
 
     </header>
-    <main>
-
+    <main class="main-container">
+        <h1 class="main-container-title">Contáctanos</h1>
+        <div class="main-container-form">
+            <form action="">
+                <div class="main-form-content">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre.." />
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Escribe tu mail.." required />
+                </div>
+                <div class="form-textarea">
+                    <label for="consulta" class="form-textarea-label">Consulta</label>
+                    <textarea name="consulta" placeholder="Escribe tu consulta.."></textarea>
+                </div>
+            </form>
+            <div class="form-btn">
+                <input class="form-btn-send" type="submit" name="enviar" value="Enviar" />
+                <input class="form-btn-cancel" type="submit" name="cancelar" value="Cancelar" />
+            </div>
+        </div>
     </main>
     <footer class="footer-container">
 

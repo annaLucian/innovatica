@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap');
+
 :root {
     --pink-principal: #E19898;
     --purple-btn: #4D3C77;
@@ -5,10 +7,11 @@
     --pink-btn: #B07A8D;
     --pink-bg-input: #F9EAEA;
     --white: #ffff;
-    --text-title: 5.5rem;
+    --text-title: 3.8rem;
     --text-subtitle: 3rem;
     --text-parrafo: 1.2rem;
     --color-text: #1c1c1c;
+    --color-text-placeholder: #BDB2B2;
 }
 
 * {
@@ -17,6 +20,12 @@
     box-sizing: border-box;
 }
 
+
+body {
+    font-family: 'Jost', sans-serif;
+    min-height: 100%;
+    overflow: hidden;
+}
 
 
 
