@@ -1,0 +1,12 @@
+:root {
+    --pink-principal: #E19898;
+    --purple-principal: #4D3C77;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
