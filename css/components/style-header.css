@@ -2,3 +2,50 @@
     height: 4rem;
     background-color: var(--pink-principal);
 }
+
+
+.header-logo{
+    width: 20%;
+    height: auto;
+}
+
+.header-links-left {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 5rem;
+}
+
+.header-button {
+    background-color: var(--purple-btn);
+    border-radius: 8rem;
+    border-color: var(--white);
+    color: var(--white);
+    font-size: 4rem;
+    padding: 3rem;
+}
+
+.header-button:hover{
+    background-color: var(--pink-btn);
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10rem;
+}
+
+.header-links-left {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    margin-right: 2rem;
+}
