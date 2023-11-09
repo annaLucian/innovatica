@@ -6,8 +6,9 @@
 .main-home {
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 90%;
     margin: 3rem auto 0;
+    justify-content: center;
 }
 
 .main-home-img {
@@ -26,14 +27,8 @@
     width: 90%;
 }
 
-.main-home-content {
-    width: 50%;
-
-}
-
 .main-home-title {
-    width: 50%;
-
+    padding: 0 2rem;
 }
 
 .main-home-title h1 {
@@ -106,7 +101,8 @@
         padding: 0.8rem 1.8rem;
     }
     .footer-container{
-        display: block;
+        display: flex;
+        
     }
 }
 
