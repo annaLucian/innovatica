@@ -40,3 +40,7 @@ h5 {
 p {
     font-size: var(--text-parrafo);
 }
+
+a {
+    text-decoration: none;
+}
