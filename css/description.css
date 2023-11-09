@@ -1,0 +1,73 @@
+@import "./base.css";
+@import "./contact.css";
+
+.main-person{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:2rem;
+}
+
+.main-circle{ /* revisar*/
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    width: 10rem;
+    height:10rem;
+    background-color: var(--purple);
+}
+.main-description-container{
+    width: 70%;
+    margin: 0 auto;
+    gap: 5rem;
+    display: flex;
+    justify-content:center;
+}
+.container-description-circle{
+    background-color: #E19898;
+    width: 20rem;
+    border-radius: 50%;
+    height: 20rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-description-squared{
+    background-color: #E19898;
+    width: 10rem;
+    height: 10rem;
+
+}
+.main-description-image{
+    width: 19rem;
+    height: 19rem;
+    position: absolute;
+    top: calc(50% - 9.5rem);
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    background-color: #3F1D38;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.main-description-image img{
+    width: 80%;
+}
+
+.main-person{
+    
+        width: 20rem;
+        position: relative;
+    
+}
+.main-description h1{
+    color: var(--pink-principal);
+    font-weight: 500;
+
+
+}
