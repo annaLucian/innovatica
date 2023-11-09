@@ -91,7 +91,7 @@
 .btn-mobile-visible{
     display: none;
 }
-@media (min-width: 870px) and (max-width: 1200px) {
+@media (min-width: 870px) and (max-width: 1300px) {
    
     .main-description-container {
         width: 100%;
@@ -121,7 +121,7 @@
         height: 9.5rem;
     }
     .main-description h1 {
-    line-height: 3.2rem;
+    line-height: 3.4rem;
     margin-bottom: 1rem;
     }
     .main-description p{
