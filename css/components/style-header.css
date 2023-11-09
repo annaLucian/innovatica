@@ -1,11 +1,11 @@
 .header-container {
-    height: 4rem;
+    height: 3.5rem;
     background-color: var(--pink-principal);
 }
 
 
-.header-logo{
-    width: 10%;
+.header-logo {
+    width: 15%;
     height: auto;
 }
 
@@ -27,9 +27,10 @@
     font-size: 1rem;
     padding: 0.4rem .8rem;
     font-family: "Jost";
+    cursor: pointer;
 }
 
-.header-button:hover{
+.header-button:hover {
     background-color: #A66F83;
 }
 
@@ -60,11 +61,11 @@
         height: 6rem;
     }
 
-    .header-logo{
-        width: 50%;
+    .header-logo {
+        width: 70%;
         height: auto;
         display: block;
-        margin-left:auto;
+        margin-left: auto;
         margin-right: auto;
     }
 
