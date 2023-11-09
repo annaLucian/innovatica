@@ -33,20 +33,27 @@ git clone https://github.com/annaLucian/innovatica/tree/main
     
 ## 🔗 Links
 
-Gabriela Poves [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriela-poves-navarro/)
+Gabriela Poves: 
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriela-poves-navarro/) 
 
-Carolina Delfa [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriela-poves-navarro/)
+Carolina Delfa: 
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriela-poves-navarro/)
 
-Lourdes velasco [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriela-poves-navarro/)
+Lourdes velasco: 
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriela-poves-navarro/)
 
-Jessica Zapata [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriela-poves-navarro/)
+Jessica Zapata: 
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriela-poves-navarro/)
 
-Daniella Cardona [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriela-poves-navarro/)
+Daniella Cardona: 
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriela-poves-navarro/)
+
 
 
 ## 🚀 Sobre Nosotras
 Creemos en la diversidad, la colaboración y el empoderamiento mutuo. Juntas, estamos construyendo más que una startup, estamos creando un espacio donde las ideas florecen, la amistad prospera, y el potencial de cada una de nosotras se libera.
 
 
-![Logo](https://i.postimg.cc/yx2tdnPc/logo.png)
+
+![Logo](https://i.postimg.cc/FHWpFVQD/logo-movil.png)
 
