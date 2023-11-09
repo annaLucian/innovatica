@@ -3,16 +3,16 @@
 @import "./contact.css";
 
 
-.main-home{
+.main-home {
     display: flex;
     align-items: center;
     width: 70%;
-    margin: auto;
+    margin: 3rem auto 0;
 }
 
-.main-home-img{
-    width: 20rem; 
-    height: 20rem;  
+.main-home-img {
+    width: 20rem;
+    height: 20rem;
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
@@ -21,46 +21,40 @@
     justify-content: center;
     align-items: center;
 }
-   
 
-
-
-
-.main-home-img img{
+.main-home-img img {
     width: 90%;
 }
 
-.main-home-content{
+.main-home-content {
     width: 50%;
 
 }
 
-.main-home-title{
+.main-home-title {
     width: 50%;
 
 }
 
-.main-home-title h1{
+.main-home-title h1 {
     color: var(--pink-principal);
     font-weight: 400;
-    line-height: 3.8rem;
+    line-height: 3.2rem;
 }
 
-
-
-.main-home-title h3{
+.main-home-title h3 {
     font-weight: 300;
     color: var(--color-text);
-
-
+    line-height: 3.2rem;
+    font-size: 1.3rem;
 }
 
-.btn-main-tellamamos{
+.btn-main-tellamamos {
     padding: 0.4rem 1rem;
     color: white;
     font-family: "Jost";
     font-size: 1rem;
-    border-radius: 1.2rem;
+    border-radius: 2rem;
     border: none;
     transition: 0.5s ease all;
     cursor: pointer;
@@ -75,43 +69,62 @@
 }
 
 
-    
+
 @media (max-width: 600px) {
+    .main-home {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-home-content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 
 
-.main-home {
-    width: 90%; 
-    flex-direction: column;
-    align-items: center;
+    .main-home-title {
+        width: 80%;
+    }
+
+    .main-home-title h1 {
+        font-size: 3rem;
+        margin-top: 3rem;
+        line-height: 2.8rem;
+    }
+
+
+    .main-home-title h3 {
+        font-size: 1.4rem;
+        color: var(--color-text);
+
+    }
+
+    .btn-main-tellamamos {
+        margin-top: 0.8rem;
+        padding: 0.8rem 1.8rem;
+    }
+    .footer-container{
+        display: block;
+    }
 }
 
-.main-home-img {
-    width: 80%; 
-    height: auto;
+@media (min-width: 601px) and (max-width: 1100px) {
+    .main-home {
+        width: 100%;
+    }
 
-}
+    .main-home-img {
+        width: 15rem;
+        height: 15rem;
+    }
 
-.main-home-content{
-    width: 100%;
-}
+    .main-home-title h1 {
+        font-size: 3rem;
+    }
 
-
-.main-home-title {
-    width: 100%; 
-}
-
-
-
-
-
-.main-home-title h1 {
-    font-size: 2rem; 
-}
-
-
-.main-home-title h3{
-    font-size: 0.9rem;
-    color: var(--color-text);
-
-}
+    .main-home-title h3 {
+        line-height: 2.5rem;
+    }
 }

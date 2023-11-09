@@ -10,7 +10,7 @@
 
 .main-container {
     max-width: 70%;
-    margin: 2rem auto 2rem;
+    margin: 5rem auto;
 }
 
 .main-container-form {
@@ -124,6 +124,9 @@
 .form-btn-cancel:hover {
     background-color: #a66f83;
 }
+.btn-mobile-visible{
+    display: none;
+}
 
 /* media query tablet*/
 @media (max-width: 1000px) {
@@ -134,15 +137,17 @@
     .main-container-form {
         max-width: 80%;
     }
+    .btn-mobile-visible{
+        display: none;
+    }
 }
 
 /* media query movil*/
 
 @media (max-width: 600px) {
-    body {
-        overflow: unset;
-    }
-
+.footer-container{
+    display: none;
+}
     .main-container h1 {
         font-size: 2.2rem;
     }
@@ -187,4 +192,33 @@
     .form-btn .form-btn-cancel {
         width: 50%;
     }
+    .btn-mobile-visible{
+        background-color: var( --purple-background);
+        display: block;
+    }
+    .btn-mobile-visible ul{
+        display: flex;
+        justify-content: center;
+        gap:4rem;
+        list-style: none;
+        padding: 2rem 0;
+    }
+    .btn-mobile-visible-contact{
+    background-color: #44274D;
+    padding: 0.8rem 1.2rem;
+    color: white;
+    border-radius: 1.2rem;
+    border: 1px solid var(--white);
+    transition: 0.5s ease all;
+    cursor: pointer;
+    }
+    .btm-visible  li a{
+        text-decoration: none;
+        color: var(--white);
+        font-size: 1rem;
+    }
+    .btm-visible  li {
+        margin:  0;
+    }
+    
 }

@@ -1,11 +1,13 @@
 @import "./base.css";
-@import "./contact.css";
+@import "../css/contact.css";
 
 .main-person{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding:2rem;
+    width: 30rem;
+    position: relative;
 }
 
 .main-circle{ /* revisar*/
@@ -17,7 +19,7 @@
     background-color: var(--purple);
 }
 .main-description-container{
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     gap: 5rem;
     display: flex;
@@ -25,24 +27,24 @@
 }
 .container-description-circle{
     background-color: #E19898;
-    width: 20rem;
+    width: 30rem;
     border-radius: 50%;
-    height: 20rem;
+    height: 30rem;
     display: flex;
     justify-content: flex-end;
 }
 
 .container-description-squared{
     background-color: #E19898;
-    width: 10rem;
-    height: 10rem;
+    width: 15rem;
+    height: 15rem;
 
 }
 .main-description-image{
-    width: 19rem;
-    height: 19rem;
+    width: 28rem;
+    height: 28rem;
     position: absolute;
-    top: calc(50% - 9.5rem);
+    top: calc(50% - 14rem);
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -58,16 +60,150 @@
 .main-description-image img{
     width: 80%;
 }
-
-.main-person{
-    
-        width: 20rem;
-        position: relative;
-    
+.main-description a img{
+    width: 2.5rem;
 }
+
 .main-description h1{
     color: var(--pink-principal);
     font-weight: 500;
 
 
+}
+.container-btn-description{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+.main-description-button{
+    background-color: var(--purple-btn);
+    padding: 0.8rem 1.2rem;
+    color: white;
+    border-radius: 1.2rem;
+    border: none;
+    margin-bottom: 5rem;
+    transition: 0.5s ease all;
+    cursor: pointer;
+}
+.main-description-button:hover {
+    background-color: #352a51;
+}
+.btn-mobile-visible{
+    display: none;
+}
+@media (min-width: 870px) and (max-width: 1200px) {
+   
+    .main-description-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container-main-person{
+        display: flex;
+        justify-content: center;
+    }
+    .main-person{
+        width: 20rem;
+    }
+    .main-description-image {
+        width: 18rem;
+        height: 18rem;
+        top: calc(50% - 9rem);
+    }
+    .container-description-circle {
+        width: 20rem;
+        height: 20rem;
+    }
+    .container-description-squared {
+        width: 9.5rem;
+        height: 9.5rem;
+    }
+    .main-description h1 {
+    line-height: 3.2rem;
+    margin-bottom: 1rem;
+    }
+    .main-description p{
+        font-size: 1rem;
+    }
+    .container-btn-description {
+        margin-top: 1rem;
+    }
+}
+@media (max-width: 870px) {
+    .main-description-diferent{
+        margin: 2rem auto;
+    }
+    .main-description-container {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .container-main-person{
+        display: flex;
+        justify-content: center;
+    }
+    .main-person{
+        width: 20rem;
+    }
+    .main-description-image {
+        width: 18rem;
+        height: 18rem;
+        top: calc(50% - 9rem);
+    }
+    .container-description-circle {
+        width: 20rem;
+        height: 20rem;
+    }
+    .container-description-squared {
+        width: 9.5rem;
+        height: 9.5rem;
+    }
+    .main-description-container {
+        gap: 0;
+    }
+    .main-description h1 {
+        font-size: 3rem;
+    line-height: 3rem;
+    }
+    .main-description h2{
+        font-size: 1.4rem;
+        margin-bottom: 1.2rem; 
+    }
+    .container-btn-description a{
+            height: 2.7rem;
+    }
+    footer{
+        display: none;
+    }
+    .btn-mobile-visible{
+        background-color: var( --purple-background);
+        display: block;
+    }
+    .btn-mobile-visible ul{
+        display: flex;
+        justify-content: center;
+        gap:4rem;
+        list-style: none;
+        padding: 2rem 0;
+    }
+    .btn-mobile-visible-contact{
+    background-color: #44274D;
+    padding: 0.8rem 1.2rem;
+    color: white;
+    border-radius: 1.2rem;
+    border: 1px solid var(--white);
+    transition: 0.5s ease all;
+    cursor: pointer;
+    }
+    .btm-visible  li a{
+        text-decoration: none;
+        color: var(--white);
+        font-size: 1rem;
+    }
+    .btm-visible  li {
+        margin:  0;
+    }
+   
 }
