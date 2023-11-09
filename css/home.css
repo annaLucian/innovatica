@@ -1,2 +1,25 @@
 @import "./components/style-footer.css";
 @import "./components/style-header.css";
+
+
+
+.main-container-img{
+    width: 10rem; 
+    height: 10rem; 
+    background-color: lightblue; 
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border: 2px solid black; /* Añade un borde para resaltar el cuadrado */
+
+}
+
+
+.main-container-title{
+    color: var(--pink-principal);
+    font-weight: 500;
+}
+
+.main-container-subtitle{
+
+}
