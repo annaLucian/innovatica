@@ -9,7 +9,7 @@
 ¿Te gusta la idea? ¡Genial! Aquí hay maneras de unirte a la fiesta:
 
 ```
-1. Explora Nuestro Código: Si eres una maga del código, únete a nosotras para mejorar y pulir nuestro sitio. Mira las issues y ¡haz tu magia!
+1. Explora Nuestro Código: Si eres una maga del código, únete a nosotras para mejorar y pulir nuestro sitio. Mira los requerimientos y ¡haz tu magia!
 
 2.Historias con Glamour: Si te encanta escribir, comparte tus experiencias, bromas de desarrollo y cualquier cosa que haga brillar a nuestra comunidad.
 
@@ -25,7 +25,7 @@ git clone https://github.com/annaLucian/innovatica/tree/main
 ## 📄 Requerimientos del entorno
 
 ```
-1. Crea una nueva rama con el nombre del componente que quieres trabajar, no se podrá trabajar directamente en la rama master.
+1. Crea una nueva rama con el nombre del componente que quieres trabajar, no se podrá trabajar directamente en la rama main.
 
 2. Cuando coloques clases a tu html procura que estas esten en ingles aunque esta web este desarrollada en castellano, debera contener el nombre del padre contenedor seguido de un - con una palabra descriptiva.
 
