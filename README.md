@@ -1,5 +1,5 @@
 
-# Innvotica 🌟 
+# Innovatica 🌟 
 
 ¡Hola mundo! Somos un grupo de amigas apasionadas por el desarrollo y hemos decidido embarcarnos en esta increíble aventura juntas.  Es más que una página web, es nuestra admiración al código, la creatividad y la colaboración.
 
