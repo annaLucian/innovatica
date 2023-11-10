@@ -1,91 +1,88 @@
 .header-container {
-    height: 4rem;
-    background-color: var(--pink-principal);
+  height: 4rem;
+  background-color: var(--pink-principal);
 }
 
-
 .header-logo {
-    width: 10%;
-    height: auto;
+  width: 14%;
+  height: auto;
 }
 
 .header-a {
-    text-decoration: none;
-    color: var(--white);
-    font-size: 1rem;
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1rem;
 }
 
 .header-a:hover {
-    color: #A66F83;
+  color: #a66f83;
 }
 
 .header-button {
-    background-color: var(--pink-btn);
-    border-radius: 1.2rem;
-    border: .1rem solid var(--white);
-    color: var(--white);
-    font-size: 1rem;
-    padding: 0.4rem .8rem;
-    font-family: "Jost";
-    cursor: pointer;
+  background-color: var(--pink-btn);
+  border-radius: 1.2rem;
+  border: 0.1rem solid var(--white);
+  color: var(--white);
+  font-size: 1rem;
+  padding: 0.4rem 0.8rem;
+  font-family: "Jost";
+  cursor: pointer;
 }
 
 .header-button:hover {
-    background-color: #A66F83;
+  background-color: #a66f83;
 }
 
 .header-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 90%;
-    margin: 0 auto;
-    box-sizing: border-box;
-    height: 100%;
-    padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 1rem;
 }
 
 .header-links-right {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    margin-right: 2rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-right: 2rem;
 }
 
 @media (max-width: 600px) {
+  .header-container {
+    height: 6rem;
+  }
 
-    .header-container {
-        height: 6rem;
-    }
+  .header-logo {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    .header-logo {
-        width: 70%;
-        height: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .header-links-right {
+    display: none;
+  }
 
-    .header-links-right {
-        display: none;
-    }
-
-    .header-logo {
-        width: 50%;
-    }
-
+  .header-logo {
+    width: 50%;
+  }
 }
 @media (min-width: 601px) and (max-width: 900px) {
-    .header-logo {
-        width: 30%;
-    }
+  .header-logo {
+    width: 30%;
+  }
 }
 
 @media (min-width: 901px) and (max-width: 1500px) {
-    .header-logo {
-        width: 15%;
-    }
+  .header-logo {
+    width: 20%;
+  }
 }
